@@ -66,7 +66,7 @@ Displaying in-app advertisements >>	AdMob's consent and interest-based advertisi
 We do not use your financial data for any purpose other than performing calculations locally on your device.
 
 # Data Storage
-# On-Device Storage (AsyncStorage)
+## On-Device Storage (AsyncStorage)
 All user-entered financial data — including tax calculations, calendar entries, and history — is stored locally on your device using React Native's AsyncStorage. This data:
 
 Never leaves your device via our systems
