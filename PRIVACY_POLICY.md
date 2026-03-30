@@ -6,11 +6,11 @@ App Name: TaxNaija: The Nigerian Tax Calculator
 Developer: Jide Dev (com.jideDev.taxnaija) 
 Contact: taxcalculatorng@gmail.com
 
-## Disclaimer
+# Disclaimer
 TaxNaija: The Nigerian Tax Calculator is not a product of, nor affiliated with, the Nigerian Government. All tax information and calculations within the app are sourced from the publicly available Nigeria Tax Act, 2025 (https://www.nrs.gov.ng/uploads/NIGERIA_TAX_ACT_2025_ef6bb812a5.pdf).
 Users are advised to consult a certified legal or financial adviser before making any financial decision. This app is a tool to help you quickly estimate and keep track of your taxable income — it does not constitute professional tax or legal advice.
 
-## Introduction
+# Introduction
 Welcome to TaxNaija, a Nigerian personal and business income tax calculator designed to help individuals and businesses estimate their tax obligations under the 2026 Nigeria Tax Act.
 We are committed to protecting your privacy. This Privacy Policy explains what information the App collects, how it is stored, and how it is used. By downloading or using TaxNaija, you agree to the practices described in this policy.
 
@@ -18,7 +18,7 @@ We are committed to protecting your privacy. This Privacy Policy explains what i
 Financial Data You Enter
 TaxNaija is an offline-first application. All financial information you enter is processed entirely on your device and is never transmitted to our servers. The following data is entered and stored locally on-device only:
 
-# Data	Purpose
+## Data	Purpose
 Gross income (monthly / weekly / annual)	Tax calculation
 Pension contributions	Tax relief calculation
 National Housing Fund (NHF) contributions	Tax relief calculation
@@ -31,14 +31,14 @@ Custom deduction names and amounts	Tax calculator
 Daily income and expense entries	Calendar tracker
 Saved tax calculation history	My Taxes tab
 
-# Security Credentials
+## Security Credentials
 If you enable the App Lock feature, the following is stored only on your device using the platform's hardware-backed secure storage:
 
 A SHA-256 hashed version of your 6-digit PIN — your raw PIN is never stored anywhere
 Your biometric unlock preference (an on/off flag only)
 Your auto-lock timeout preference (stored in AsyncStorage)
 
-# Notification Preferences
+## Notification Preferences
 If you enable daily reminders, the App stores your chosen reminder times locally on your device. No notification content or schedule data is transmitted to external servers.
 
 # Advertising Data (Google AdMob)
@@ -55,7 +55,7 @@ AdMob's policies: https://support.google.com/admob/answer/6128543
 To opt out of personalised advertising:
 Android: Settings → Google → Ads → Delete advertising ID (Android 12+), or opt out of Ads Personalisation
 
-## How We Use Your Information
+# How We Use Your Information
 Purpose >>	Legal Basis
 
 Performing tax calculations on your device >>	Providing the service you requested
@@ -65,7 +65,7 @@ Locking the app with a PIN or biometrics >>	Your explicit security settings
 Displaying in-app advertisements >>	AdMob's consent and interest-based advertising framework
 We do not use your financial data for any purpose other than performing calculations locally on your device.
 
-## Data Storage
+# Data Storage
 # On-Device Storage (AsyncStorage)
 All user-entered financial data — including tax calculations, calendar entries, and history — is stored locally on your device using React Native's AsyncStorage. This data:
 
@@ -73,7 +73,7 @@ Never leaves your device via our systems
 Is accessible only within the TaxNaija app
 Is permanently deleted when you uninstall the App
 
-# Secure Storage (Hardware-Backed)
+## Secure Storage (Hardware-Backed)
 Your hashed PIN and biometric preferences are stored using Expo SecureStore, which is backed by:
 
 Android: The Android Keystore system (hardware-backed)
@@ -87,7 +87,7 @@ We do not sell, rent, trade, or transfer your personal or financial information 
 
 The only third party that may receive limited, automatically-collected technical data from your device is Google AdMob, solely for the purpose of serving advertisements (see Section 2.4 above).
 
-## Permissions Requested
+# Permissions Requested
 Permission ||	Platform ||	Reason
 USE_BIOMETRIC / USE_FINGERPRINT ||	Android ||	To allow fingerprint unlock of the app
 Face ID || iOS ||	To allow Face ID unlock of the app
@@ -95,7 +95,7 @@ POST_NOTIFICATIONS ||	Android 13+ ||	To send you daily tax reminder notification
 
 TaxNaija does not request or use access to your contacts, camera, microphone, location, files, or any other device data beyond those listed above.
 
-## Children's Privacy
+# Children's Privacy
 TaxNaija is not directed at or intended for use by children under the age of 13 (or 16 in the European Union / United Kingdom). We do not knowingly collect personal information from children. If you believe a child has provided information through this App, please contact us at taxcalculatorng@gmail.com and we will take appropriate steps.
 
 ## Data Retention
@@ -107,7 +107,7 @@ Calendar income/expense entries	|| You delete the entries, or uninstall the App
 Security credentials (hashed PIN, biometrics setting)	|| You disable App Lock in Settings, or uninstall the App
 Notification preferences	|| You remove reminder times in Settings, or uninstall the App
 
-## Your Rights
+# Your Rights
 Depending on your jurisdiction, you may have the right to:
 
 Access your data — viewable directly within the App (My Taxes, Calendar, Settings)
@@ -116,7 +116,7 @@ Opt out of personalised advertising — see Section 2.4
 Withdraw consent for notifications — by removing reminder times in Settings or revoking notification permission in your device settings
 Since all data is stored exclusively on your device and we hold no server-side copy, all data requests can be fulfilled directly through App settings and your device's app management tools.
 
-## Security Measures
+# Security Measures
 We implement the following security measures within the App:
 
 PIN hashing: Your 6-digit PIN is hashed with SHA-256 before storage. The raw PIN is never persisted anywhere.
@@ -126,15 +126,15 @@ Clipboard clearing: The clipboard is automatically wiped each time the App enter
 No financial data transmission: No financial data you enter into TaxNaija is transmitted to any external server by our application.
 Despite these measures, no method of electronic storage is 100% secure. We encourage you to enable App Lock and keep your device's operating system and security software up to date.
 
-## Third-Party Services
+# Third-Party Services
 Service	Purpose	Privacy Policy
 Google AdMob	Displaying in-app advertisements	https://policies.google.com/privacy
 Expo (EAS)	App build and distribution infrastructure	https://expo.dev/privacy
 
-## Changes to This Policy
+# Changes to This Policy
 We may update this Privacy Policy from time to time to reflect changes in the App or applicable laws. Any changes will be posted to this document with an updated "Last Updated" date at the top. Continued use of the App after changes are posted constitutes your acceptance of the revised policy. We encourage you to review this policy periodically.
 
-## Contact Us
+# Contact Us
 If you have any questions, concerns, or requests relating to this Privacy Policy or TaxNaija's data practices, please contact:
 
 Developer: Jide Dev Email: taxcalculatorng@gmail.com
