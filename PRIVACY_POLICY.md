@@ -1,4 +1,4 @@
-# Privacy Policy for Nigerian Tax Calculator
+# Privacy Policy for TaxNaija: Nigerian Tax Calculator
 
 **Last Updated: January 15, 2026**
 
