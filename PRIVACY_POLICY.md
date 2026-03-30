@@ -6,7 +6,8 @@
 Nigerian Tax Calculator ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we handle information in our mobile application.
 
 ## Disclaimer
-TaxNaija: The Nigerian Tax Calculator is not a product or affiliated with the Nigerian Government. All information and calculations within the app are sourced from the publicly available Nigerian Tax Act, 2025 (https://www.nrs.gov.ng/uploads/NIGERIA_TAX_ACT_2025_ef6bb812a5.pdf)
+TaxNaija: The Nigerian Tax Calculator is not a product or affiliated with the Nigerian Government. All information and calculations within the app are sourced from the publicly available Nigerian Tax Act, 2025 (https://www.nrs.gov.ng/uploads/NIGERIA_TAX_ACT_2025_ef6bb812a5.pdf). 
+Users are advised to consult a certified legal or financial adviser before making any financial decision. This app is just a tool to quickly calculate and keep track of your taxable income. 
 
 ## Information Collection and Use
 Nigerian Tax Calculator is designed with privacy in mind:
