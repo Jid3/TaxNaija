@@ -13,6 +13,7 @@ import * as SystemUI from 'expo-system-ui';
 import { useEffect } from "react";
 import { Platform, StatusBar as RNStatusBar } from "react-native";
 import mobileAds from 'react-native-google-mobile-ads';
+import SpInAppUpdates, { IAUUpdateKind } from 'sp-react-native-in-app-updates';
 
 
 function RootLayoutContent() {
@@ -73,6 +74,26 @@ export default function RootLayout() {
       .catch(error => {
         console.error('❌ AdMob SDK initialization failed:', error);
       });
+  }, []);
+
+  // Check for Google Play Store updates
+  useEffect(() => {
+    if (Platform.OS === 'android') {
+      try {
+        const inAppUpdates = new SpInAppUpdates(false);
+        inAppUpdates.checkNeedsUpdate().then((result) => {
+          if (result.shouldUpdate) {
+            inAppUpdates.startUpdate({
+              updateType: IAUUpdateKind.FLEXIBLE,
+            });
+          }
+        }).catch((err: any) => {
+          console.log('In-app update check failed (normal if not on Play Store):', err);
+        });
+      } catch (error) {
+        console.warn('In-app updates failed to initialize. Ensure Dev Client is rebuilt.', error);
+      }
+    }
   }, []);
 
   return (
